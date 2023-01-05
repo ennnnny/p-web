@@ -1,6 +1,14 @@
+/**
+ * Just replace BAREUR
+ */
+const BAREURL = 'https://web-ed8vm.paomian.party'
+
+/**
+ * Non-developers, please modify without authorization, 98% report errors!
+*/
 self.__uv$config = {
     prefix: `/anVtcA==/`,
-    bare: 'https://web-ed8vm.paomian.party/',
+    bare: `${BAREURL}/bareServer/`,
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/server/server.handler.js',
